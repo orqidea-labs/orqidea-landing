@@ -1,1 +1,195 @@
-de
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Orqidea - Automatiza. Aprende. Evoluciona.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #001537;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #001537;
+    }
+    header img {
+      height: 60px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    .hero h2 {
+      color: #A84DCB;
+      font-size: 2.5em;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #4DEE82;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #4DEE82;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .benefits, .phases {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      flex: 1 1 250px;
+      background-color: #13293D;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1em;
+    }
+    button {
+      background-color: #A84DCB;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .testimony {
+      font-style: italic;
+      background: #0d2a4d;
+      border-left: 4px solid #4DEE82;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+    .comparison {
+      background: #13293D;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .comparison ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .comparison li::before {
+      content: "✔️ ";
+      color: #4DEE82;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      background: #000e20;
+    }
+    footer a {
+      color: #53C1E0;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo_orqidea.png" alt="Logo Orqidea">
+</header>
+
+<div class="hero">
+  <h2>Orqidea</h2>
+  <p>Automatiza. Aprende. Evoluciona.</p>
+</div>
+
+<section>
+  <h2>¿Tu empresa sigue haciendo tareas repetitivas?</h2>
+  <p>Las PYMEs pierden hasta 30% de su tiempo en procesos manuales. Con Orqidea puedes automatizar sin código, analizar y escalar sin complicaciones.</p>
+</section>
+
+<section>
+  <h2>¿Qué es Orqidea?</h2>
+  <p>Una plataforma para PYMEs que automatiza procesos, analiza datos y propone mejoras. Transformamos operaciones repetitivas en flujos inteligentes, sin necesidad de saber programar.</p>
+</section>
+
+<section>
+  <h2>Beneficios clave</h2>
+  <div class="benefits">
+    <div class="card">✅ Automatización sin código</div>
+    <div class="card">✅ Análisis de procesos y KPIs</div>
+    <div class="card">✅ Recomendaciones inteligentes</div>
+    <div class="card">✅ Conexiones multicanal: Telegram, WhatsApp, Email</div>
+    <div class="card">✅ ROI en menos de 3 meses</div>
+    <div class="card">✅ Soporte humano y comunidad activa</div>
+  </div>
+</section>
+
+<section>
+  <h2>¿Por qué Orqidea?</h2>
+  <div class="comparison">
+    <ul>
+      <li>✔️ Sin curva de aprendizaje técnica</li>
+      <li>✔️ Plantillas preconfiguradas por industria</li>
+      <li>✔️ Compatible con tus sistemas actuales</li>
+      <li>✔️ IA para sugerir mejoras semanales</li>
+      <li>✔️ Soporte directo y comunidad de usuarios</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Nuestro modelo de trabajo</h2>
+  <div class="phases">
+    <div class="card"><strong>Fase 1</strong><br/>Activación inteligente: diagnóstico y plantillas clave</div>
+    <div class="card"><strong>Fase 2</strong><br/>Visualización y análisis: dashboards y reportes</div>
+    <div class="card"><strong>Fase 3</strong><br/>Recomendación automática basada en uso real</div>
+    <div class="card"><strong>Fase 4</strong><br/>Integración con ERP/CRM y flujos personalizados</div>
+  </div>
+</section>
+
+<section>
+  <h2>Lo que dicen de nosotros</h2>
+  <div class="testimony">
+    “Gracias a Orqidea automatizamos 3 procesos en la primera semana. Hoy gestionamos tareas sin correos ni planillas. — Empresa piloto en Medellín”
+  </div>
+</section>
+
+<section>
+  <h2>Solicita tu piloto sin costo</h2>
+  <p>En menos de 48 horas te entregamos un diagnóstico funcional y puedes comenzar con tu primer flujo automatizado.</p>
+  <form action="https://formspree.io/f/mqkrzwel" method="POST">
+    <input type="text" name="name" placeholder="Tu nombre" required />
+    <input type="email" name="email" placeholder="Tu correo electrónico" required />
+    <textarea name="message" rows="5" placeholder="Tu mensaje..." required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 Orqidea · Todos los derechos reservados<br/>
+  <a href="#">LinkedIn</a> | <a href="#">Instagram</a> | <a href="mailto:hola@orqidea.co">Email</a>
+</footer>
+
+</body>
+</html>
