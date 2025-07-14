@@ -52,4 +52,4 @@ Para desplegar en producción:
 
 ---
 
-> Proyecto liderado por Carlos Felipe Londoño Luna – Arquitecto de Soluciones Digitales
+> Proyecto liderado por Carlos Felipe Londoño Luna – Arquitecto de Soluciones Digitales.
