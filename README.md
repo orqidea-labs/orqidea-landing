@@ -47,7 +47,7 @@ Para desplegar en producción:
 
 ## 📧 Contacto
 
-📨 Correo: hola.orqidea@gmail.com  
+📨 Correo: contacto.orqidea@gmail.com  
 🌐 Web: [orqidea.vercel.app](https://orqidea.vercel.app) _(en cuanto se publique)_
 
 ---
